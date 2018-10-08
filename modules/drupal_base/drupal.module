@@ -1,0 +1,11 @@
+<?php
+
+function drupal_base_HOOK()
+{
+  $items['/name_link'] = array(
+    'title' => 'Base Custom Module',
+    'description' => 'This is a base custom module from custom module.',
+    'route' => 'drupal_base.drupal_page',
+  );
+  return $items;
+}
